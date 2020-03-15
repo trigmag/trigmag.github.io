@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+	<title>Projekty</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<script src="js/scripts.js"></script>
+</head>
+<body>
+
+<header id="top-bar"><img height="100" src="grafika/tlo_pasek_gorny.png" width="1024" /></header>
+
+<nav id="nav" class="inline">
+    <ul>
+        <li><a href="index.html"><b>Start</b></a></li>
+        <li><a href="naprawy.html"><b>Naprawy</b></a></li>
+        <li><a href="projekty.html"><b>Projekty</b></a></li>
+        <li><a href="linki.html"><b>Linki</b></a></li>
+        <li><a href="kontakt.html"><b>Kontakt</b></a></li>
+        <li><a href="serwis.html"><b>Serwis</b></a></li>
+    </ul>
+</nav>
+<div id="content" class="inline">
+
+	<div class="inline" style="width:79%;">
+		<p>
+			Przy naprawie plotera do testowania taśm Fpc używany jest tester Canon AY3-4504-000000.
+		</p>
+		<p>
+			Tester fabryczny jest dosyć nieporęczny w obsłudze i wymaga ciągłego naciskania przycisku testowego przy ręcznym przesuwie głowicy.
+			W zasadzie nigdy nie wiadomo czy taśmy Fpc łączące płytę główną z płytą głowicy nie przerywają w pewnych
+			określonych miejscach w wyniku zużycia mechanicznego.
+		</p>
+		<p>
+			Powstała w związku z tym modyfikacja tester która mierzy w sposób ciągły taśmy Fpc oraz sprawdza czy
+			rezystancja mieści się w zdefiniowanym okienku dyskryminatora rezystancji.
+		</p>
+		<p>
+			Modyfikacja bardzo ułatwia poszukiwanie usterki złamanej taśmy Fpc.
+			Zapinam tester do taśmy od strony płyty głównej a druga część testera zapina się przy taśmie na wózku
+			karetki głowicy.
+		</p>
+		<p>
+			Teraz można poruszać wiązkami, przesuwać karetkę głowicy a tester w sposób ciągły mierzy taśmę. Jeżeli nastąpi przerwa
+			lub rezystancja nagle wzrośnie to tester zapiszczy buzerem. Można w ten sposób zlokalizować bardzo dokładnie w którym
+			miejscu jest uszkodzenie-złamanie paska lub jest  przetarta izolacja i łapie chassis plotera.
+		</p>
+		<br/>
+		<a href="index.html" style="clean:both;"><b>STRONA GŁÓWNA</b></a>
+	</div>
+	<div class="inline">
+		<img class="pop-up" src="grafika/canon_ay3-4504.jpg"/>
+		<img class="pop-up" src="grafika/canon_ay3-4504_pcb.jpg"/>
+		<img class="pop-up" src="grafika/canon_ay3-4504_mody.jpg"/>
+		<img class="pop-up" src="grafika/canon_ay3-4504_test.jpg"/>
+	</div>
+
+</div>
+</body>
+</html>

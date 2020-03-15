@@ -1,0 +1,70 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height:100%;
+}
+img {
+    border: 0;
+    display: block;
+}
+body {
+  background-color: #800000;
+}
+
+header{
+    position:fixed;
+}
+nav{
+    width:187px;
+    margin-top:100px;
+    height:600px;
+    position:fixed;
+    background-image: url('grafika/tlo_menu.png');
+}
+nav ul{
+   list-style-type: none;
+    margin-right: 30px;
+    margin-top: 90px;
+}
+nav li{
+    margin-bottom: 20px;
+}
+nav li:last-child {
+     margin-top: 20px;
+}
+nav a{
+	font-family: Verdana;
+	font-size: medium;
+}
+
+#content{
+    margin-left: 220px;
+    margin-top: 110px;
+    width: 800px;
+    color: #FFFFFF;
+    font-family: Verdana;
+}
+#content table{
+    font-family: Verdana;
+    color: #FFFFFF;
+}
+.inline{
+    float:left;
+}
+.center{
+    text-align: center;
+}
+.center img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pop-up{
+    margin: 15px;
+    width: 135px;
+    cursor: zoom-in;
+}
+
+#content a{
+    color: #FFFFFF;
+}
